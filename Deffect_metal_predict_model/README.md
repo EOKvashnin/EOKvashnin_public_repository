@@ -6,8 +6,8 @@
 - Для реализованной в данном пректе модели обучающий датасет (test_image) расположен на Google диске в папке defect_detection
 - В этой же директории расположен файл с весами для модели (которые были созданы в процессе обучения данной модели - шаг 4 predict_model.ipynb)
 - для тестирования модели необходимо поместить тестовое изображение из папки `test_image/test` в корень каталога и указать название данного файла в строке 45
-  `img = tf.keras.utils.load_img('/content/drive/MyDrive/colab_notebooks/defect_detection/Sc_109.bmp', target_size=(image_height, image_width))`
-  где "Sc_109.bmp" название тестируемого изображения
+  `img = tf.keras.utils.load_img('/content/drive/MyDrive/colab_notebooks/defect_detection/Sc_109.bmp', target_size=(image_height, image_width))`,
+  где "Sc_109.bmp" название тестируемого изображения.
 
 Результат предсказания можно увидеть на шаге 3, запустив последовательно 1, 2, 3 блоки.
 
